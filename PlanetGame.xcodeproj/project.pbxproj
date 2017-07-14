@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5680AEA31EBCD29300D91842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680AEA21EBCD29300D91842 /* AppDelegate.swift */; };
+		5680AEA51EBCD29300D91842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680AEA41EBCD29300D91842 /* ViewController.swift */; };
+		5680AEA81EBCD29300D91842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5680AEA61EBCD29300D91842 /* Main.storyboard */; };
+		5680AEAA1EBCD29300D91842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5680AEA91EBCD29300D91842 /* Assets.xcassets */; };
+		5680AEAD1EBCD29300D91842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5680AEAB1EBCD29300D91842 /* LaunchScreen.storyboard */; };
+		5680AEB81EBCD29300D91842 /* PlanetGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680AEB71EBCD29300D91842 /* PlanetGameTests.swift */; };
+		5680AEC31EBCD29300D91842 /* PlanetGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680AEC21EBCD29300D91842 /* PlanetGameUITests.swift */; };
+		5680AED51EBCD2A500D91842 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5680AED01EBCD2A500D91842 /* background.png */; };
+		5680AED61EBCD2A500D91842 /* blue-asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5680AED11EBCD2A500D91842 /* blue-asteroid.png */; };
+		5680AED71EBCD2A500D91842 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 5680AED21EBCD2A500D91842 /* earth.png */; };
+		5680AED81EBCD2A500D91842 /* red-asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5680AED31EBCD2A500D91842 /* red-asteroid.png */; };
+		5680AED91EBCD2A500D91842 /* yellow-asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5680AED41EBCD2A500D91842 /* yellow-asteroid.png */; };
+		5680AEDB1EBCD2F300D91842 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680AEDA1EBCD2F300D91842 /* MenuScene.swift */; };
+		5680AEDD1EBCD32000D91842 /* SpaceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680AEDC1EBCD32000D91842 /* SpaceScene.swift */; };
+		5680AEE01EBCDA2D00D91842 /* Glass_and_Metal_Collision.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5680AEDE1EBCDA2D00D91842 /* Glass_and_Metal_Collision.mp3 */; };
+		5680AEE11EBCDA2D00D91842 /* smw_coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5680AEDF1EBCDA2D00D91842 /* smw_coin.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5680AEB41EBCD29300D91842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5680AE971EBCD29300D91842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5680AE9E1EBCD29300D91842;
+			remoteInfo = PlanetGame;
+		};
+		5680AEBF1EBCD29300D91842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5680AE971EBCD29300D91842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5680AE9E1EBCD29300D91842;
+			remoteInfo = PlanetGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5680AE9F1EBCD29300D91842 /* PlanetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5680AEA21EBCD29300D91842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5680AEA41EBCD29300D91842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5680AEA71EBCD29300D91842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5680AEA91EBCD29300D91842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5680AEAC1EBCD29300D91842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5680AEAE1EBCD29300D91842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5680AEB31EBCD29300D91842 /* PlanetGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5680AEB71EBCD29300D91842 /* PlanetGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetGameTests.swift; sourceTree = "<group>"; };
+		5680AEB91EBCD29300D91842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5680AEBE1EBCD29300D91842 /* PlanetGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5680AEC21EBCD29300D91842 /* PlanetGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetGameUITests.swift; sourceTree = "<group>"; };
+		5680AEC41EBCD29300D91842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5680AED01EBCD2A500D91842 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5680AED11EBCD2A500D91842 /* blue-asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-asteroid.png"; sourceTree = "<group>"; };
+		5680AED21EBCD2A500D91842 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		5680AED31EBCD2A500D91842 /* red-asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-asteroid.png"; sourceTree = "<group>"; };
+		5680AED41EBCD2A500D91842 /* yellow-asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-asteroid.png"; sourceTree = "<group>"; };
+		5680AEDA1EBCD2F300D91842 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		5680AEDC1EBCD32000D91842 /* SpaceScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceScene.swift; sourceTree = "<group>"; };
+		5680AEDE1EBCDA2D00D91842 /* Glass_and_Metal_Collision.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glass_and_Metal_Collision.mp3; sourceTree = "<group>"; };
+		5680AEDF1EBCDA2D00D91842 /* smw_coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smw_coin.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5680AE9C1EBCD29300D91842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5680AEB01EBCD29300D91842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5680AEBB1EBCD29300D91842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5680AE961EBCD29300D91842 = {
+			isa = PBXGroup;
+			children = (
+				5680AEA11EBCD29300D91842 /* PlanetGame */,
+				5680AEB61EBCD29300D91842 /* PlanetGameTests */,
+				5680AEC11EBCD29300D91842 /* PlanetGameUITests */,
+				5680AEA01EBCD29300D91842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5680AEA01EBCD29300D91842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5680AE9F1EBCD29300D91842 /* PlanetGame.app */,
+				5680AEB31EBCD29300D91842 /* PlanetGameTests.xctest */,
+				5680AEBE1EBCD29300D91842 /* PlanetGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5680AEA11EBCD29300D91842 /* PlanetGame */ = {
+			isa = PBXGroup;
+			children = (
+				5680AEA21EBCD29300D91842 /* AppDelegate.swift */,
+				5680AEA41EBCD29300D91842 /* ViewController.swift */,
+				5680AEA61EBCD29300D91842 /* Main.storyboard */,
+				5680AEA91EBCD29300D91842 /* Assets.xcassets */,
+				5680AED01EBCD2A500D91842 /* background.png */,
+				5680AED11EBCD2A500D91842 /* blue-asteroid.png */,
+				5680AED21EBCD2A500D91842 /* earth.png */,
+				5680AED31EBCD2A500D91842 /* red-asteroid.png */,
+				5680AEDE1EBCDA2D00D91842 /* Glass_and_Metal_Collision.mp3 */,
+				5680AEDF1EBCDA2D00D91842 /* smw_coin.wav */,
+				5680AED41EBCD2A500D91842 /* yellow-asteroid.png */,
+				5680AEAB1EBCD29300D91842 /* LaunchScreen.storyboard */,
+				5680AEAE1EBCD29300D91842 /* Info.plist */,
+				5680AEDA1EBCD2F300D91842 /* MenuScene.swift */,
+				5680AEDC1EBCD32000D91842 /* SpaceScene.swift */,
+			);
+			path = PlanetGame;
+			sourceTree = "<group>";
+		};
+		5680AEB61EBCD29300D91842 /* PlanetGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				5680AEB71EBCD29300D91842 /* PlanetGameTests.swift */,
+				5680AEB91EBCD29300D91842 /* Info.plist */,
+			);
+			path = PlanetGameTests;
+			sourceTree = "<group>";
+		};
+		5680AEC11EBCD29300D91842 /* PlanetGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5680AEC21EBCD29300D91842 /* PlanetGameUITests.swift */,
+				5680AEC41EBCD29300D91842 /* Info.plist */,
+			);
+			path = PlanetGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5680AE9E1EBCD29300D91842 /* PlanetGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5680AEC71EBCD29300D91842 /* Build configuration list for PBXNativeTarget "PlanetGame" */;
+			buildPhases = (
+				5680AE9B1EBCD29300D91842 /* Sources */,
+				5680AE9C1EBCD29300D91842 /* Frameworks */,
+				5680AE9D1EBCD29300D91842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanetGame;
+			productName = PlanetGame;
+			productReference = 5680AE9F1EBCD29300D91842 /* PlanetGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5680AEB21EBCD29300D91842 /* PlanetGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5680AECA1EBCD29300D91842 /* Build configuration list for PBXNativeTarget "PlanetGameTests" */;
+			buildPhases = (
+				5680AEAF1EBCD29300D91842 /* Sources */,
+				5680AEB01EBCD29300D91842 /* Frameworks */,
+				5680AEB11EBCD29300D91842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5680AEB51EBCD29300D91842 /* PBXTargetDependency */,
+			);
+			name = PlanetGameTests;
+			productName = PlanetGameTests;
+			productReference = 5680AEB31EBCD29300D91842 /* PlanetGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5680AEBD1EBCD29300D91842 /* PlanetGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5680AECD1EBCD29300D91842 /* Build configuration list for PBXNativeTarget "PlanetGameUITests" */;
+			buildPhases = (
+				5680AEBA1EBCD29300D91842 /* Sources */,
+				5680AEBB1EBCD29300D91842 /* Frameworks */,
+				5680AEBC1EBCD29300D91842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5680AEC01EBCD29300D91842 /* PBXTargetDependency */,
+			);
+			name = PlanetGameUITests;
+			productName = PlanetGameUITests;
+			productReference = 5680AEBE1EBCD29300D91842 /* PlanetGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5680AE971EBCD29300D91842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kirsten Bauman";
+				TargetAttributes = {
+					5680AE9E1EBCD29300D91842 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A4ARKQ7Y48;
+						ProvisioningStyle = Automatic;
+					};
+					5680AEB21EBCD29300D91842 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A4ARKQ7Y48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5680AE9E1EBCD29300D91842;
+					};
+					5680AEBD1EBCD29300D91842 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A4ARKQ7Y48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5680AE9E1EBCD29300D91842;
+					};
+				};
+			};
+			buildConfigurationList = 5680AE9A1EBCD29300D91842 /* Build configuration list for PBXProject "PlanetGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5680AE961EBCD29300D91842;
+			productRefGroup = 5680AEA01EBCD29300D91842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5680AE9E1EBCD29300D91842 /* PlanetGame */,
+				5680AEB21EBCD29300D91842 /* PlanetGameTests */,
+				5680AEBD1EBCD29300D91842 /* PlanetGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5680AE9D1EBCD29300D91842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5680AEE01EBCDA2D00D91842 /* Glass_and_Metal_Collision.mp3 in Resources */,
+				5680AEAD1EBCD29300D91842 /* LaunchScreen.storyboard in Resources */,
+				5680AED51EBCD2A500D91842 /* background.png in Resources */,
+				5680AED91EBCD2A500D91842 /* yellow-asteroid.png in Resources */,
+				5680AED71EBCD2A500D91842 /* earth.png in Resources */,
+				5680AEAA1EBCD29300D91842 /* Assets.xcassets in Resources */,
+				5680AED81EBCD2A500D91842 /* red-asteroid.png in Resources */,
+				5680AEA81EBCD29300D91842 /* Main.storyboard in Resources */,
+				5680AED61EBCD2A500D91842 /* blue-asteroid.png in Resources */,
+				5680AEE11EBCDA2D00D91842 /* smw_coin.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5680AEB11EBCD29300D91842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5680AEBC1EBCD29300D91842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5680AE9B1EBCD29300D91842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5680AEDB1EBCD2F300D91842 /* MenuScene.swift in Sources */,
+				5680AEDD1EBCD32000D91842 /* SpaceScene.swift in Sources */,
+				5680AEA51EBCD29300D91842 /* ViewController.swift in Sources */,
+				5680AEA31EBCD29300D91842 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5680AEAF1EBCD29300D91842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5680AEB81EBCD29300D91842 /* PlanetGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5680AEBA1EBCD29300D91842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5680AEC31EBCD29300D91842 /* PlanetGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5680AEB51EBCD29300D91842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5680AE9E1EBCD29300D91842 /* PlanetGame */;
+			targetProxy = 5680AEB41EBCD29300D91842 /* PBXContainerItemProxy */;
+		};
+		5680AEC01EBCD29300D91842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5680AE9E1EBCD29300D91842 /* PlanetGame */;
+			targetProxy = 5680AEBF1EBCD29300D91842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5680AEA61EBCD29300D91842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5680AEA71EBCD29300D91842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5680AEAB1EBCD29300D91842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5680AEAC1EBCD29300D91842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5680AEC51EBCD29300D91842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5680AEC61EBCD29300D91842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5680AEC81EBCD29300D91842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = PlanetGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ame494Mobile.PlanetGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5680AEC91EBCD29300D91842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = PlanetGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ame494Mobile.PlanetGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5680AECB1EBCD29300D91842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = PlanetGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ame494Mobile.PlanetGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetGame.app/PlanetGame";
+			};
+			name = Debug;
+		};
+		5680AECC1EBCD29300D91842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = PlanetGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ame494Mobile.PlanetGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetGame.app/PlanetGame";
+			};
+			name = Release;
+		};
+		5680AECE1EBCD29300D91842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = PlanetGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ame494Mobile.PlanetGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlanetGame;
+			};
+			name = Debug;
+		};
+		5680AECF1EBCD29300D91842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = PlanetGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ame494Mobile.PlanetGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlanetGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5680AE9A1EBCD29300D91842 /* Build configuration list for PBXProject "PlanetGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5680AEC51EBCD29300D91842 /* Debug */,
+				5680AEC61EBCD29300D91842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5680AEC71EBCD29300D91842 /* Build configuration list for PBXNativeTarget "PlanetGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5680AEC81EBCD29300D91842 /* Debug */,
+				5680AEC91EBCD29300D91842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5680AECA1EBCD29300D91842 /* Build configuration list for PBXNativeTarget "PlanetGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5680AECB1EBCD29300D91842 /* Debug */,
+				5680AECC1EBCD29300D91842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5680AECD1EBCD29300D91842 /* Build configuration list for PBXNativeTarget "PlanetGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5680AECE1EBCD29300D91842 /* Debug */,
+				5680AECF1EBCD29300D91842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5680AE971EBCD29300D91842 /* Project object */;
+}
